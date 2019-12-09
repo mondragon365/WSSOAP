@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <WM_RegistrarTransaccion xmlns="http://royalsystems.net/">
+      <xdc_RegistroDocumento>
+        <tramiteDocumentario xmlns="http://royalsystems.net/">
+          <tipoEntidad>1</tipoEntidad>
+          <entidad>20458605662</entidad>
+          <numeroDocumento>OFICIO SIED Nro. 260-2019/GSC/FONAFE</numeroDocumento>
+          <fechaDocumento>05/12/2019</fechaDocumento>
+          <dirigidoA>06767060</dirigidoA>
+          <referencia>DOCUMENTO RECIBIDO DESDE EL SIED</referencia>
+          <asunto>OFICIOS/PRUEBA NRO 01</asunto>
+          <prioridad>1</prioridad>
+          <plazo>30</plazo>
+          <indicacion>1</indicacion>
+          <otraIndicacion>j</otraIndicacion>          
+        </tramiteDocumentario>
+      </xdc_RegistroDocumento>
+    </WM_RegistrarTransaccion>
+  </soapenv:Body>
+</soapenv:Envelope>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <WM_RegistrarTransaccion xmlns="http://royalsystems.net/">
+      <xdc_RegistroDocumento>
+        <tramiteDocumentario xmlns="http://royalsystems.net/">
+          <tipoEntidad>1</tipoEntidad>
+          <entidad>20458605662</entidad>
+          <numeroDocumento>OFICIO SIED Nro. 260-2019/GSC/FONAFE</numeroDocumento>
+          <fechaDocumento>05/12/2019</fechaDocumento>
+          <dirigidoA>06767060</dirigidoA>
+          <referencia>DOCUMENTO RECIBIDO DESDE EL SIED</referencia>
+          <asunto>OFICIOS/PRUEBA NRO 01</asunto>
+          <prioridad>1</prioridad>
+          <plazo>30</plazo>
+          <indicacion>1</indicacion>
+          <otraIndicacion>j</otraIndicacion>
+          <anexos>
+            <itemAnexo>
+              <almacenArchivo>4</almacenArchivo>
+              <descripcion>CARGO RECEPCIONADO</descripcion>
+              <nombreFisico>/home/empresas/20119205949/2019/RECIBIDOS/67416.pdf</nombreFisico>
+            </itemAnexo>
+          </anexos>
+        </tramiteDocumentario>
+      </xdc_RegistroDocumento>
+    </WM_RegistrarTransaccion>
+  </soapenv:Body>
+</soapenv:Envelope>
+
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <WM_RegistrarTransaccion xmlns="http://tempuri.org/">
+           <xdc_RegistroDocumento>
+                <tramiteDocumentario>
+                    <tipoEntidad>1</tipoEntidad>
+                    <entidad>20458605662</entidad>
+                    <numeroDocumento>OFICIO SIED Nro. 260-2019/GSC/FONAFE</numeroDocumento>
+                    <fechaDocumento>05/12/2019</fechaDocumento>
+                    <dirigidoA>06767060</dirigidoA>
+                    <referencia>DOCUMENTO RECIBIDO DESDE EL SIED</referencia>
+                    <asunto>OFICIOS/PRUEBA NRO 01</asunto>
+                    <prioridad>1</prioridad>
+                    <plazo>30</plazo>
+                    <indicacion>1</indicacion>
+                    <otraIndicacion>j</otraIndicacion>    
+                </tramiteDocumentario>
+            </xdc_RegistroDocumento>
+        </WM_RegistrarTransaccion>
+    </Body>
+</Envelope>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <WM_RegistrarTransaccion xmlns="http://royalsystems.net/">
+          <xdc_RegistroDocumento>
+            <tramiteDocumentario xmlns="http://royalsystems.net/">
+              <tipoEntidad>1</tipoEntidad>
+              <entidad>20458605662</entidad>
+              <numeroDocumento>OFICIO SIED Nro. 260-2019/GSC/FONAFE</numeroDocumento>
+              <fechaDocumento>05/12/2019</fechaDocumento>
+              <dirigidoA>06767060</dirigidoA>
+              <referencia>DOCUMENTO RECIBIDO DESDE EL SIED</referencia>
+              <asunto>OFICIOS/PRUEBA NRO 01</asunto>
+              <prioridad>1</prioridad>
+              <plazo>30</plazo>
+              <indicacion>1</indicacion>
+              <otraIndicacion>j</otraIndicacion>          
+            </tramiteDocumentario>
+          </xdc_RegistroDocumento>
+	      </WM_RegistrarTransaccion>
+    </Body>
+</Envelope>
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <WM_RegistrarTransaccion xmlns="http://tempuri.org/">
+            <xdc_RegistroDocumento>
+                <tramiteDocumentario>
+                    <tipoEntidad>1</tipoEntidad>
+                    <entidad>20458605662</entidad>
+                    <numeroDocumento>OFICIO SIED Nro. 260-2019/GSC/FONAFE</numeroDocumento>
+                    <fechaDocumento>05/12/2019</fechaDocumento>
+                    <dirigidoA>06767060</dirigidoA>
+                    <referencia>DOCUMENTO RECIBIDO DESDE EL SIED</referencia>
+                    <asunto>OFICIOS/PRUEBA NRO 01</asunto>
+                    <prioridad>1</prioridad>
+                    <plazo>30</plazo>
+                    <indicacion>1</indicacion>
+                    <otraIndicacion>j</otraIndicacion>
+                    <anexos>
+                      <itemAnexo>
+                        <almacenArchivo>4</almacenArchivo>
+                        <descripcion>CARGO RECEPCIONADO</descripcion>
+                        <nombreFisico>/home/empresas/20119205949/2019/RECIBIDOS/67416.pdf</nombreFisico>
+                      </itemAnexo>
+                    </anexos>
+                </tramiteDocumentario>
+            </xdc_RegistroDocumento>
+        </WM_RegistrarTransaccion>
+    </Body>
+</Envelope>
