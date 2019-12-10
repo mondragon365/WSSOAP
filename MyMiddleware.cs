@@ -15,10 +15,19 @@ public class MyMiddleware
 
         _logger = logFactory.CreateLogger("MyMiddleware");
     }
-    public async Task Invoke(HttpContext httpContext)
+    public async Task InvokeAsync(HttpContext context)
     {
-        _logger.LogInformation("MyMiddleware executing..");
-        await _next(httpContext);
+        var bodyStr = "";
+        var req = context.Request;
+        req.EnableBuffering();
+
+        using (StreamReader reader = new StreamReader(req.Body, Encoding.UTF8, true, 1024, true))
+        {
+            bodyStr = await reader.ReadToEndAsync();
+            req.Body.Position = 0;
+        }
+
+        await _next(context);
     }
 }
 public static class MyMiddlewareExtensions
