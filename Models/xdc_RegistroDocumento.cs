@@ -29,15 +29,12 @@ namespace Models
         [StringLength(10, MinimumLength = 1)]
         public string fechaDocumento { get; set; }
         [DataMember]
-        [Required]
         [StringLength(10, MinimumLength = 1)]
         public string dirigidoA { get; set; }
         [DataMember]
-        [Required]
         [StringLength(100, MinimumLength = 1)]
         public string referencia { get; set; }
         [DataMember]
-        [Required]
         [StringLength(200, MinimumLength = 1)]
         public string asunto { get; set; }
         [DataMember]
@@ -53,12 +50,10 @@ namespace Models
         [Range(0, int.MaxValue)]
         public string plazo { get; set; }
         [DataMember]
-        [Required]
         [StringLength(200, MinimumLength = 1)]
         public string otraIndicacion { get; set; }
-        [DataMember]
-        [Required]
-        public anexos anexos { get; set; }        
+        [DataMember]        
+        public List<itemAnexo> anexos { get; set; }        
     }
     public class anexos
     {        
@@ -67,11 +62,16 @@ namespace Models
     }
     public class itemAnexo
     {        
-        [DataMember]        
+        [DataMember]                
+        [StringLength(5, MinimumLength = 1)]
         public string almacenArchivo { get; set; }
         [DataMember]
+        [Required]
+        [StringLength(200, MinimumLength = 1)]
         public string descripcion { get; set; }
         [DataMember]
+        [Required]
+        [StringLength(200, MinimumLength = 1)]
         public string nombreFisico { get; set; }
     }
 }
